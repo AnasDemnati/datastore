@@ -8,6 +8,8 @@ var app = express();
 app.use(logger('dev'));
 app.use(bodyParser.json());
 
+app.use('/public', express.static(__dirname + "/public"));
+
 app.all('/*', function(req, res, next) {
   // CORS headers
   res.header("Access-Control-Allow-Origin", "*"); // restrict it to the required domain
@@ -23,7 +25,7 @@ app.all('/*', function(req, res, next) {
 
 // Auth Middleware - This will check if the token is valid
 // Only the requests that start with /api/v1/* will be checked for the token.
-// Any URL's that do not follow the below pattern should be avoided unless you 
+// Any URL's that do not follow the below pattern should be avoided unless you
 // are sure that authentication is not needed
 app.all('/api/v1/*', [require('./middlewares/validateRequest')]);
 

@@ -44,7 +44,7 @@ var data = [{
   "RequestConnectionStatus" : "0",
   "admobBannerId" : "",
   "admobInterId" : "",
-  "homePageTextOne": "Tip & Trick 1",
+  "homePageTextOne": "",
   "isHomePageTextOne": true,
   "homePageTextTwo": "Tip & Trick 2",
   "isHomePageTextTwo": true,

@@ -67,7 +67,7 @@ var data = [{
   "LoadingLineFour":"",
   "LoadingLineFive":"",
   "LoadingLineSix":"",
-  "BackgroundImageLink" : "",
+  "BackgroundImageLink" : "http://chamaluxurycar.com/api/register/8ball/background-8ball.png",
   "GuideLinkOne":"",
   "GuideLinkTwo":"",
   "GuideLinkThree":"",

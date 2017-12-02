@@ -57,7 +57,7 @@ var data = [{
   "isHomePageTextFive": "",
   "homePageTextSix": "",
   "isHomePageTextSix": "",
-  "GetFreeCoinsButton" : "",
+  "GetFreeCoinsButton" : "Get free Coins",
   "GenerateText":"",
   "RateAppTextOne": "",
   "RateAppTextOther": "",

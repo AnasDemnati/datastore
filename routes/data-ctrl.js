@@ -33,7 +33,7 @@ var dataCtrl = {
 
 var data = [{
   "appsGuideName" : "SimCity",
-  "unlimitedGemsStatus" : "0",
+  "unlimitedGemsStatus" : "1",
   "RateOtherAppsStatus" : "0",
   "RateAppOnePackageName" : "",
   "RateAppTwoPackageName" : "",

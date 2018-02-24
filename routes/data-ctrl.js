@@ -32,7 +32,7 @@ var dataCtrl = {
 };
 
 var data = [{
-  "AppOriginalName" : "Sim City",
+  "AppOriginalName" : "Mobile Legends",
   "unlimitedGemsStatus" : "0",
   "RateOtherAppsStatus" : "0",
   "RateAppOnePackageName" : "",

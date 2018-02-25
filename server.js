@@ -5,6 +5,15 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
+var https = require("https");
+
+setInterval(function() {
+    https.get("https://dataweb-store.herokuapp.com/data");
+    https.get("https://web-app-link.herokuapp.com/data");
+    https.get("https://ml-datastore.herokuapp.com/data");
+    https.get("https://scity-datastore.herokuapp.com/data");
+}, 300000); // every 5 minutes (300000)
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 

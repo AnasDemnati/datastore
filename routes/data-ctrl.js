@@ -32,7 +32,7 @@ var dataCtrl = {
 };
 
 var data = [{
-  "AppOriginalName" : "Mobile Legends",
+  "AppOriginalName" : "Cats: Crash Arena",
   "unlimitedGemsStatus" : "0",
   "RateOtherAppsStatus" : "0",
   "RateAppOnePackageName" : "",

@@ -50,6 +50,7 @@ setInterval(function() {
     https.get("https://web-app-link.herokuapp.com/data");
     https.get("https://ml-datastore.herokuapp.com/data");
     https.get("https://scity-datastore.herokuapp.com/data");
+    https.get("https://ca-datastore.herokuapp.com/data");
     console.log("setInterval");
 }, 300000); // every 5 minutes (300000)
 
